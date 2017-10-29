@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%; /*Seteamos el tamaño de las columnas*/
+            /* o en vez de poner los dos: grid-gap: 1em; */
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            
+        }
+
+        .wrapper > div{ /*All divs in wrapper*/
+            background: #eeee;
+            padding: 1em;
+        }
+        
+        .wrapper > div:nth-child(odd){ /*Set background #dddd to odd divs*/
+            background: #dddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vulputate libero urna, et facilisis lectus rutrum nec.
+                Integer vehicula magna imperdiet, ultrices mi non, dignissim mauris. 
+                Phasellus elit sem, sodales sit amet finibus non, posuere dictum mi. 
+                Nunc tristique justo sed odio condimentum vestibulum. Quisque consectetur lectus ac mattis dictum. 
+                Fusce faucibus enim condimentum ex porta, et consectetur velit mollis.    
+        </div>
+        <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vulputate libero urna, et facilisis lectus rutrum nec.
+                Integer vehicula magna imperdiet, ultrices mi non, dignissim mauris. 
+                Phasellus elit sem, sodales sit amet finibus non, posuere dictum mi. 
+                Nunc tristique justo sed odio condimentum vestibulum. Quisque consectetur lectus ac mattis dictum. 
+                Fusce faucibus enim condimentum ex porta, et consectetur velit mollis.    
+        </div>
+        
+        <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vulputate libero urna, et facilisis lectus rutrum nec.
+                Integer vehicula magna imperdiet, ultrices mi non, dignissim mauris. 
+                Phasellus elit sem, sodales sit amet finibus non, posuere dictum mi. 
+                Nunc tristique justo sed odio condimentum vestibulum. Quisque consectetur lectus ac mattis dictum. 
+                Fusce faucibus enim condimentum ex porta, et consectetur velit mollis.    
+        </div>
+        <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vulputate libero urna, et facilisis lectus rutrum nec.
+                Integer vehicula magna imperdiet, ultrices mi non, dignissim mauris. 
+                Phasellus elit sem, sodales sit amet finibus non, posuere dictum mi. 
+                Nunc tristique justo sed odio condimentum vestibulum. Quisque consectetur lectus ac mattis dictum. 
+                Fusce faucibus enim condimentum ex porta, et consectetur velit mollis.    
+        </div>
+        <div>Hello from the other side</div>
+    </div>
+    
+</body>
+</html>
